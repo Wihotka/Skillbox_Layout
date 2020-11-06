@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Montserrat'; /* Название шрифта */
+    src:
+        local('Montserrat'), /* Подключение шрифта при его наличии у пользователя */
+        url('../fonts/montserrat-v14-latin_cyrillic-regular.woff2') format('woff2'), /* Подключение woff2 */
+		url('../fonts/montserrat-v14-latin_cyrillic-regular.woff') format('woff'); /* Подключение woff */
+	font-display: swap; /* Способ отображения шрифта, swap отображает текст практически сразу, но возможен резкий скачок во время подмены резервного шрифта на пользовательский (fout) */
+	font-weight: normal; /* Толщина шрифта */
+	font-style: normal; /* Стиль шрифта */
+}
+
+@font-face {
+	font-family: 'Montserrat';
+    src:
+        local('Montserrat Medium'),
+        url('../fonts/montserrat-v14-latin_cyrillic-500.woff2') format('woff2'),
+		url('../fonts/montserrat-v14-latin_cyrillic-500.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+    src:
+        local('Montserrat Semi-bold'),
+        url('../fonts/montserrat-v14-latin_cyrillic-600.woff2') format('woff2'),
+		url('../fonts/montserrat-v14-latin_cyrillic-600.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+    src:
+        local('Montserrat Bold'),
+        url('../fonts/montserrat-v14-latin_cyrillic-700.woff2') format('woff2'),
+		url('../fonts/montserrat-v14-latin_cyrillic-700.woff') format('woff');
+	font-display: swap;
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+    src:
+        local('Montserrat Extra-bold'),
+        url('../fonts/montserrat-v14-latin_cyrillic-800.woff2') format('woff2'),
+		url('../fonts/montserrat-v14-latin_cyrillic-800.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}

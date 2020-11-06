@@ -1,0 +1,132 @@
+.offer {
+    position: relative;
+    margin-bottom: 99px;
+    padding: 102px 78px 92px 79px;
+    color: #ffffff;
+}
+
+.swiper-container {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide1 {
+    background-image: url(../images/2_offer/offer-background.jpg);
+}
+
+.swiper-slide2 {
+    background-image: url(../images/2_offer/offer-background_1.jpg);
+}
+
+.swiper-slide3 {
+    background-image: url(../images/2_offer/offer-background_2.jpg);
+}
+
+.offer-heading {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 16px;
+    max-width: 840px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 86px;
+}
+
+.offer-description {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 98px;
+    max-width: 840px;
+    font-weight: bold;
+    font-size: 23.5px;
+    line-height: 29px;
+}
+
+.offer-button {
+    position: relative;
+    z-index: 2;
+    padding: 25.5px 40px 25.5px 40px;
+    border: none;
+    -webkit-transition: background-color 300ms ease-in-out;
+    -o-transition: background-color 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out;
+    font-weight: bold;
+    font-size: 23.5px;
+    line-height: 29px;
+    color: #ffffff;
+    background-color: #ff9900;
+}
+
+.offer-button:hover {
+    background-color: rgba(255, 153, 0, 0.6);
+}
+
+.offer-button:active {
+    background-color: rgba(255, 153, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+    .offer {
+        margin-bottom: 58px;
+        padding: 158px 42px 114px 45px;
+    }
+
+    .offer-heading {
+        margin-bottom: 10px;
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    .offer-description {
+        max-width: 658px;
+        margin-bottom: 110px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .offer {
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+
+    .offer-description {
+        margin-bottom: 34px;
+    }
+}
+
+@media (max-width: 576px) {
+    .offer {
+        margin-bottom: 40px;
+        padding: 31px 22px 39px 22px;
+        text-align: center;
+    }
+
+    .offer-heading {
+        margin-bottom: 7px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .offer-description {
+        margin-bottom: 35px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .offer-button {
+        padding: 4px 28px 7px 28px;
+        font-size: 12px;
+    }
+}

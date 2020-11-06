@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:focus {
+    outline: 2px solid black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button:focus {
+    outline: 2px solid black;
+    border-radius: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 2px solid black;
+}
+
+textarea:focus {
+    outline: 2px solid black;
+}
+
+.swiper-pagination-bullet:focus {
+    outline: 2px solid black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 0;
+    -webkit-text-fill-color: #ccc;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    -o-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,174,255,0.04) 50%,rgba(0,0,0,0) 51%,rgba(0,174,255,0.03) 100%);  
+}
+
+.container {
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1025px) and (max-width: 1919px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 924px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

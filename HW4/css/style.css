@@ -1,0 +1,265 @@
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('fonts/Gilroy-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.main-content {
+  background-color: #222020;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  margin-bottom: 30px;
+  padding: 30px;
+  font-family: 'Graphik LCG', sans-serif;
+  color: white;
+}
+
+.download {
+  margin: 5px;
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+}
+
+.more {
+  margin: 5px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid white;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.back {
+  padding-left: 43px;
+  font-size: 18px;
+  background: url(images/return.png);
+  background-size: 25px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.forward {
+  float: right;
+  padding-right: 43px;
+  font-size: 18px;
+  background: url(images/next.png);
+  background-size: 25px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.main-header2 {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.header {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.list {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.paragraph {
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: inline-block;
+  padding-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+img {
+  max-width: 500px;
+}
+
+table {
+  width: 100%;
+  margin-top: 100px;
+  border-collapse: collapse;
+}
+
+caption {
+  padding: 30px;
+}
+
+td, th {
+  padding: 20px 10px;
+  border: 1px solid #a0a0a0;
+}
+
+.table-footer {
+  color: #2f1ce4;
+}
+
+.learn-tag {
+  color: #2f1ce4;
+  text-decoration: underline;
+}
+
+/* modules.html code below */
+
+.mod-skillbox {
+  margin-bottom: 50px;
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.mod-header {
+  margin-top: 92px;
+  margin-bottom: 20px;
+  margin-left: 96px;
+  font-size: 48px;
+}
+
+.mod-box {
+  text-align: center;
+}
+
+.mod-block {
+  position: relative;
+  width: 480px;
+  height: 505px;
+  margin-top: 60px;
+  margin-right: 55px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 20px 3px rgba(83, 83, 83, 0.31);
+}
+
+.mod-block:nth-child(2n+2fgfcgd) {
+  margin-right: 0;fgfcgd
+}
+
+.mod-img {
+  width: 100%;
+  height: auto;
+}
+
+.mod-about {
+  position: absolute;
+  top: 177px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-left: 50px;
+  background-color: white;
+}
+
+.mod-head {
+  padding-top: 20px;
+  padding-bottom: 13px;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.mod-list {
+  padding-left: 2px;
+  list-style-type: none;
+  line-height: 2.34;
+}
+
+.mod-number {
+  position: absolute;
+  right: 20px;
+  bottom: 23px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #eaeaea;
+}
+
+.mod-button {
+  margin-top: 93px;
+  text-align: center;
+}
+
+.mod-more {
+  display: inline-block;
+  padding: 26px 78px;
+  font-size: 18px;
+  color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
+}
+
+.mod-all {
+  background: url(images/figure.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  padding-bottom: 470px;
+}
