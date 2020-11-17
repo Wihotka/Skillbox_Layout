@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometask 16</title>
+    <!-- Style Links -->
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/fonts.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/checkbox.css">
+    <link type="text/css" rel="stylesheet" href="css/select.css">
+    <link type="text/css" rel="stylesheet" href="css/yandex-map.css">
+    <link type="text/css" rel="stylesheet" href="css/scrollbar.css">
+    <link type="text/css" rel="stylesheet" href="css/form.css">
+    <!-- Choices Links -->
+    <link type="text/css" rel="stylesheet" href="libs/choices.min.css">
+    <script src="libs/choices.min.js" defer></script>
+    <!-- Yandex Map Links -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <!-- Simple Bar Links -->
+    <link rel="stylesheet" href="libs/simplebar.css">
+    <script src="libs/simplebar.min.js" defer></script>
+    <!-- Just Validate -->
+    <script src="libs/just-validate.min.js" defer></script>
+    <!-- Input Mask Script -->
+    <script src="libs/inputmask.min.js" defer></script>
+    <!-- index.js Link -->
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header class="header-container container">
+        <h1>Задание 16</h1>
+    </header>
+    <main class="container main-container">
+        <section>
+            <h2>Custom Checkbox</h2>
+            <div class="checkbox content">
+                <h3 class="checkbox-heading">Категории:</h3>
+                <label class="checkbox-item">
+                    <input type="checkbox" value=""> 
+                    <span>Динозавры</span>
+                </label>
+                <label class="checkbox-item">
+                    <input type="checkbox" value=""> 
+                    <span>Медведи</span>
+                </label>
+                <label class="checkbox-item">
+                    <input type="checkbox" value=""> 
+                    <span>Косули</span>
+                </label>
+                <label class="checkbox-item">
+                    <input type="checkbox" value=""> 
+                    <span>Лисы</span>
+                </label>
+                <label class="checkbox-item">
+                    <input type="checkbox" value=""> 
+                    <span>Волки</span>
+                </label>
+                <label class="checkbox-item checkbox-item-last">
+                    <input type="checkbox" value=""> 
+                    <span>Олени и лоси</span>
+                </label>
+            </div>
+        </section>
+        <section>
+            <h2>Custom Select</h2>
+            <div class="select content">
+                <select name="select" id="select">
+                    <option value="" hidden disabled selected>Материал</option>
+                    <option>Древесина</option>
+                    <option>Металл</option>
+                    <option>Камень</option>
+                    <option>Пластик</option>
+                    <option>Композитный</option>
+                    <option>Гипс</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <h2>Yandex Map</h2>
+            <div class="map" id="map">
+
+            </div>
+        </section>
+        <section>
+            <h2>Custom Scrollbar</h2>
+            <div class="scrollbar content" id="myElement" data-simplebar>
+                <p class="scrollbar-text" data-simplebar>Сложно сказать, почему многие известные личности представлены в исключительно положительном свете. Лишь активно развивающиеся страны третьего мира будут объективно рассмотрены соответствующими инстанциями. Мы вынуждены отталкиваться от того, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки глубокомысленных рассуждений. Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, обнародованы. Значимость этих проблем настолько очевидна, что социально-экономическое развитие, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для первоочередных требований.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Valid Form & Phone Mask</h2>
+            <form action="" autocomplete="on" method="POST" class="form">
+                <span class="form-span form-span-first">Как вас зовут?</span>
+                <input type="text" name="name" placeholder="Имя*" value="" class="form-item" data-validate-field="name">
+                <span class="form-span">Укажите ваш телефон</span>
+                <input type="tel" name="phone" placeholder="Телефон*" value="" class="form-item" data-validate-field="tel">
+                <span class="form-span">Укажите ваш e-mail</span>
+                <input type="email" name="email" placeholder="E-mail*" value="" class="form-item" data-validate-field="mail">
+                <button type="submit" class="form-button">Заказать</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+h1, h2 {
+    padding: 20px 0;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #424242;
+}
+
+.header-container {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.main-container {
+    padding-bottom: 160px;
+}
+
+.content {
+    color: #333333;
+    background-color: #ffffff;
+}

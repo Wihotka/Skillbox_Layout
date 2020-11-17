@@ -1,0 +1,11 @@
+.scrollbar {
+    width: 399px;
+    height: 310px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.scrollbar-text {
+    padding: 20px 30px 0 30px;
+    line-height: 170%;
+}
